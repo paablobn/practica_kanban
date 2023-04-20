@@ -1,9 +1,9 @@
-body{
+/*body{
     background-image: url(../practica_kanban/images/campo.jpg);
     font-family: 'Lato', sans-serif;
     background-attachment: scroll;
 }/*Si ponia main en vez de body no me funcionaba bien a demas
-    habian unos bordes blancos en el background, si llamo al body m funciona todo bien*/
+    habian unos bordes blancos en el background, si llamo al body m funciona todo bien
 h1{
     color: white;
     font-weight: 400;

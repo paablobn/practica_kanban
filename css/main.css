@@ -1,0 +1,115 @@
+body {
+  background-image: url(../images/campo.jpg);
+  font-family: 'Lato', sans-serif;
+  background-attachment: scroll; }
+
+/*Si ponia main en vez de body no me funcionaba bien a demas
+   habian unos bordes blancos en el background, si llamo al body m funciona todo bien*/
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  background-color: #1175a287;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content; }
+
+* {
+  box-sizing: border-box; }
+
+#kanban .column .card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  border: solid 1px #0000001c;
+  margin-bottom: 10px;
+  font-size: 15px; }
+
+#kanban .column .card:hover {
+  background-color: #1175a296;
+  color: white;
+  cursor: pointer; }
+
+#kanban .column {
+  background-color: #ffffffb9;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  border: solid 1px #0000001c;
+  margin-bottom: 10px;
+  font-size: 15px; }
+
+#kanban {
+  width: 100%; }
+
+.column {
+  width: 18%;
+  margin: 1em;
+  float: left; }
+
+.button_x {
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  float: right;
+  border-radius: 50px;
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 4px; }
+
+.tags {
+  overflow: hidden; }
+
+.tagfront {
+  background-color: #24c21f;
+  color: white;
+  border-radius: 50px;
+  width: 22px;
+  height: 22px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  padding-top: 3px;
+  text-align: center;
+  float: left;
+  margin: 4px; }
+
+.tagback {
+  background-color: #ff7300;
+  color: white;
+  border-radius: 50px;
+  width: 22px;
+  height: 22px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  padding-top: 3px;
+  text-align: center;
+  float: left;
+  margin: 4px; }
+
+.tagdevice {
+  background-color: yellow;
+  color: white;
+  border-radius: 50px;
+  width: 22px;
+  height: 22px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  padding-top: 3px;
+  text-align: center;
+  float: left;
+  margin: 4px; }
+
+/*# sourceMappingURL=main.css.map */
